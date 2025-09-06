@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
-import AddressModify from "./profile/AddressModify";
+import AddressModify from "./Profile/AddressModify";
 import { clearError } from "../store/profileSlice";
 import { SpinnerInfinity } from "spinners-react";
 
