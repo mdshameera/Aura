@@ -39,7 +39,7 @@ const Signup = () => {
 	};
 
 	return (
-		<div className='flex items-center justify-center min-h-screen'>
+		<div className='flex items-center justify-center max-md:p-3 min-h-screen'>
 			<form
 				onSubmit={handleSubmit}
 				className='flex items-center justify-center flex-col'
@@ -48,12 +48,12 @@ const Signup = () => {
 					Register for your experience
 				</h1>
 				<div className='flex flex-col items-start space-y-3 w-full'>
-					<div className='flex items-center space-x-3 w-full'>
+					<div className='flex items-center max-md:flex-col max-md:space-y-3 min-md:space-x-3 w-full'>
 						<input
 							type='text'
 							name='firstName'
 							placeholder='First Name'
-							className='p-2 focus:outline-none border border-gray-400 focus:ring-1 focus:ring-yellow-400 focus:border-none hover:border-yellow-400 text-gray-500'
+							className='p-2 w-full focus:outline-none border border-gray-400 focus:ring-1 focus:ring-yellow-400 focus:border-none hover:border-yellow-400 text-gray-500'
 							value={formData.firstName}
 							onChange={handleChange}
 							required
@@ -62,7 +62,7 @@ const Signup = () => {
 							type='text'
 							name='lastName'
 							placeholder='Last Name'
-							className='p-2 focus:outline-none border border-gray-400 focus:ring-1 focus:ring-yellow-400 focus:border-none hover:border-yellow-400 text-gray-500'
+							className='p-2 w-full focus:outline-none border border-gray-400 focus:ring-1 focus:ring-yellow-400 focus:border-none hover:border-yellow-400 text-gray-500'
 							value={formData.lastName}
 							onChange={handleChange}
 						/>
