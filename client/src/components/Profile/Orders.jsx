@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { SpinnerInfinity } from "spinners-react";
-import CustomDropdown from "../../utils/customDropdown";
+import CustomDropdown from "../../utils/CustomDropdown";
 import { pickGradient } from "../../utils/gradient";
 import { FaChevronRight } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
