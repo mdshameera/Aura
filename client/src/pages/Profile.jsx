@@ -3,7 +3,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { fetchUser } from "../store/profileSlice";
 import Avatar from "react-avatar";
 import { useState } from "react";
-import AccountSidebar from "../components/profile/AccountSidebar";
 import AddressBook from "../components/profile/AddressBook";
 import PersonalInformation from "../components/profile/PersonalInformation";
 import Orders from "../components/Profile/Orders";
